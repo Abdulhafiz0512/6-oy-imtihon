@@ -1,0 +1,122 @@
+
+.post {
+    max-width: 760px;
+padding: 10px 15px;
+    border-radius: 10px;
+    border: 0.5px solid #878787;
+
+  .post_top {
+    display: flex;
+    gap: 60px;
+    .post_left {
+      width: 533px;
+      display: flex;
+      flex-direction: column;
+      .first {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        p {
+          color: #757575;
+          font-family: "Roboto";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+        }
+        .per {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          p {
+            color: #292929;
+            font-family: "Roboto";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+          img{
+            height: 24px;
+            width: 24px;
+          }
+        }
+      }
+      .second {
+        margin-top: 14px;
+
+        h2 {
+          margin-bottom: 8px;
+          color: #191919;
+          font-family: "Roboto";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        p {
+          color: #292929;
+          font-family: "Roboto";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 24px;
+        }
+      }
+    }
+    .post_right{
+        img{
+            width: 140px;
+            height: 140px;
+        }
+       
+    }
+  }
+  .post_bottom {
+    margin-top: 40px;
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      button {
+        border-radius: 10px;
+        background: #f2f2f2;
+        padding: 5px 8px;
+        border: none;
+        outline: none;
+      }
+      p {
+        color: #757575;
+        font-family: "Roboto";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+    }
+    .right{
+        display: flex;
+        gap: 12px;
+        img{
+            height: 24px;
+            width: 24px;
+        }
+    }
+  }
+}
+.posts_page{
+    display: flex;
+    margin-top: 100px;
+    .rght{
+        margin-left: 40px;
+        #postList{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+}
